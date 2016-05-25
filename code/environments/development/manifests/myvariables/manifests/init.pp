@@ -1,5 +1,5 @@
 
-class myvariables($name) {
+class myvariables($name_is) {
 
-	notice("${name}")
+	notice("${name_is}")
 }
