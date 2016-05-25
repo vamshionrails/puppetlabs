@@ -1,3 +1,0 @@
-[submodule "environments/production"]
-	url = /opt/puppetlabs/server/data/puppetserver/filesync/storage/puppet-code/production.git
-	path = environments/production
