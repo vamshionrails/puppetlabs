@@ -1,0 +1,30 @@
+<configuration scan="true">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- http://logback.qos.ch/manual/layouts.html#ClassicPatternLayout -->
+            <pattern>%date %-5level [%logger{2}] %message%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="F1" class="ch.qos.logback.core.FileAppender">
+        <file>/var/log/puppetlabs/console-services/console-services.log</file>
+        <append>true</append>
+        <encoder>
+            <!-- http://logback.qos.ch/manual/layouts.html#ClassicPatternLayout -->
+            <pattern>%date %-5level [%logger{2}] %message%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.eclipse.jetty" level="INFO"/>
+
+    <logger name="org.apache.shiro" level="WARN"/>
+
+    <!-- Uncomment to log ldap queries -->
+    <!-- <logger name="puppetlabs.rbac.ldap" level="DEBUG"/> -->
+
+    <root level="info">
+        <!--<appender-ref ref="STDOUT"/>-->
+        <appender-ref ref="${logappender:-DUMMY}" />
+        <appender-ref ref="F1"/>
+    </root>
+</configuration>

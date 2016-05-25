@@ -1,0 +1,31 @@
+<configuration debug="false" scan="true">
+    <appender name="PUPPETSERVER" class="ch.qos.logback.core.FileAppender">
+        <file>/var/log/puppetlabs/puppetserver/puppetserver-access.log</file>
+        <encoder>
+            <pattern>%h %l %u %user %date "%r" %s %b %h %a %localPort %D</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.access.net.URLEvaluator">
+                <URL>/file-sync/</URL>
+            </evaluator>
+            <OnMatch>DENY</OnMatch>
+            <OnMismatch>ACCEPT</OnMismatch>
+        </filter>
+    </appender>
+    <appender-ref ref="PUPPETSERVER"/>
+
+    <appender name="FILESYNC" class="ch.qos.logback.core.FileAppender">
+        <file>/var/log/puppetlabs/puppetserver/file-sync-access.log</file>
+        <encoder>
+            <pattern>%h %l %u %user %date "%r" %s %b %h %a %localPort %D</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.access.net.URLEvaluator">
+                <URL>/file-sync/</URL>
+            </evaluator>
+            <OnMatch>ACCEPT</OnMatch>
+            <OnMismatch>DENY</OnMismatch>
+        </filter>
+    </appender>
+    <appender-ref ref="FILESYNC"/>
+</configuration>

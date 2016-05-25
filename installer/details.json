@@ -1,0 +1,34 @@
+{
+  "version": "2015.3.2",
+  "master_install_location": "local",
+  "master_hostname": "linux.vamshi.com",
+  "master_alt_names": "linux.vamshi.com",
+  "use_application_services": "on",
+  "database": "use_existing",
+  "database_hostname": "localhost",
+  "database_port": "5432",
+  "puppetdb_database_name": "pe-puppetdb",
+  "puppetdb_database_username": "pe-puppetdb",
+  "puppetdb_database_password": "removed",
+  "rbac_database_name": "pe-rbac",
+  "rbac_database_username": "pe-rbac",
+  "rbac_database_password": "removed",
+  "classifier_database_name": "pe-classifier",
+  "classifier_database_username": "pe-classifier",
+  "classifier_database_password": "removed",
+  "activity_database_name": "pe-activity",
+  "activity_database_username": "pe-activity",
+  "activity_database_password": "removed",
+  "orchestrator_database_name": "pe-orchestrator",
+  "orchestrator_database_username": "pe-orchestrator",
+  "orchestrator_database_password": "removed",
+  "console_password": "removed",
+  "splat": [
+
+  ],
+  "captures": [
+    "monolithic"
+  ],
+  "type": "monolithic",
+  "database_password": "removed"
+}

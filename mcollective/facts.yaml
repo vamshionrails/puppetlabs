@@ -1,0 +1,483 @@
+---
+aio_agent_build: 1.3.5
+aio_agent_version: 1.3.5
+architecture: x86_64
+augeas:
+  version: 1.4.0
+augeasversion: 1.4.0
+bios_release_date: 10/24/2014
+bios_vendor: LENOVO
+bios_version: FHKT51AUS
+blockdevice_sda_model: ST500LM000-1EJ16
+blockdevice_sda_size: 500107862016
+blockdevice_sda_vendor: ATA
+blockdevices: sda
+boardmanufacturer: LENOVO
+boardproductname: SHARKBAY
+chassistype: Desktop
+custom_auth_conf: false
+dhcp_servers:
+  system: 192.168.1.1
+  wlp2s0: 192.168.1.1
+disks:
+  sda:
+    model: ST500LM000-1EJ16
+    size: 465.76 GiB
+    size_bytes: 500107862016
+    vendor: ATA
+dmi:
+  bios:
+    release_date: 10/24/2014
+    vendor: LENOVO
+    version: FHKT51AUS
+  board:
+    manufacturer: LENOVO
+    product: SHARKBAY
+  chassis:
+    type: Desktop
+  manufacturer: LENOVO
+  product:
+    name: 10AY001YUS
+    serial_number: MJ01VJUC
+    uuid: E03AD2E9-AE84-E411-94AB-6A9611171900
+domain: vamshi.com
+facterversion: 3.1.4
+filesystems: ext2,ext3,ext4,vfat,xfs
+fqdn: linux.vamshi.com
+gid: root
+hardwareisa: x86_64
+hardwaremodel: x86_64
+hostname: linux
+id: root
+identity:
+  gid: 0
+  group: root
+  uid: 0
+  user: root
+interfaces: br-ex,br-int,br-tun,docker0,eno1,lo,ovs-system,qg-cd53552c-e8,qr-30ad3dfa-ac,tapb5c50d6e-e6,wlp2s0
+ipaddress: 192.168.1.101
+ipaddress6: fe80::2c2:c6ff:fe87:8a5c
+ipaddress6_docker0: fe80::42:27ff:fe0e:f15f
+ipaddress6_lo: "::1"
+ipaddress6_wlp2s0: fe80::2c2:c6ff:fe87:8a5c
+ipaddress_docker0: 172.17.0.1
+ipaddress_lo: 127.0.0.1
+ipaddress_wlp2s0: 192.168.1.101
+is_pe: false
+is_virtual: false
+kernel: Linux
+kernelmajversion: '3.10'
+kernelrelease: 3.10.0-327.13.1.el7.x86_64
+kernelversion: 3.10.0
+load_averages:
+  15m: 0.27
+  1m: 1.58
+  5m: 0.48
+lsbdistcodename: Core
+lsbdistdescription: CentOS Linux release 7.2.1511 (Core)
+lsbdistid: CentOS
+lsbdistrelease: 7.2.1511
+lsbmajdistrelease: '7'
+lsbminordistrelease: '2'
+lsbrelease: ":core-4.1-amd64:core-4.1-noarch"
+macaddress: 00:c2:c6:87:8a:5c
+macaddress_br-ex: 12:6f:cf:19:63:49
+macaddress_br-int: d2:9b:bb:2c:df:49
+macaddress_br-tun: 72:2b:71:db:02:42
+macaddress_docker0: 02:42:27:0e:f1:5f
+macaddress_eno1: 00:23:24:79:86:89
+macaddress_ovs-system: 92:18:6a:bc:06:bb
+macaddress_qg-cd53552c-e8: 1a:0f:d9:b1:92:a5
+macaddress_qr-30ad3dfa-ac: a2:eb:52:c2:6d:a1
+macaddress_tapb5c50d6e-e6: 72:47:72:1d:18:07
+macaddress_wlp2s0: 00:c2:c6:87:8a:5c
+manufacturer: LENOVO
+memory:
+  swap:
+    available: 9.40 GiB
+    available_bytes: 10097565696
+    capacity: 3.35%
+    total: 9.73 GiB
+    total_bytes: 10448007168
+    used: 334.21 MiB
+    used_bytes: 350441472
+  system:
+    available: 665.55 MiB
+    available_bytes: 697876480
+    capacity: 82.00%
+    total: 3.61 GiB
+    total_bytes: 3877625856
+    used: 2.96 GiB
+    used_bytes: 3179749376
+memoryfree: 665.55 MiB
+memoryfree_mb: 665.546875
+memorysize: 3.61 GiB
+memorysize_mb: 3697.9921875
+mountpoints:
+  "/":
+    available: 57.61 GiB
+    available_bytes: 61858545664
+    capacity: 27.95%
+    device: "/dev/mapper/centos_linux-root"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 79.96 GiB
+    size_bytes: 85857402880
+    used: 22.35 GiB
+    used_bytes: 23998857216
+  "/backup":
+    available: 295.16 GiB
+    available_bytes: 316929933312
+    capacity: 1.25%
+    device: "/dev/mapper/centos_linux-backup"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 298.90 GiB
+    size_bytes: 320946544640
+    used: 3.74 GiB
+    used_bytes: 4016611328
+  "/boot":
+    available: 4.60 GiB
+    available_bytes: 4934733824
+    capacity: 5.69%
+    device: "/dev/sda2"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 4.87 GiB
+    size_bytes: 5232394240
+    used: 283.87 MiB
+    used_bytes: 297660416
+  "/boot/efi":
+    available: 1.94 GiB
+    available_bytes: 2083164160
+    capacity: 0.47%
+    device: "/dev/sda1"
+    filesystem: vfat
+    options:
+    - rw
+    - relatime
+    - fmask=0077
+    - dmask=0077
+    - codepage=437
+    - iocharset=ascii
+    - shortname=winnt
+    - errors=remount-ro
+    size: 1.95 GiB
+    size_bytes: 2093043712
+    used: 9.42 MiB
+    used_bytes: 9879552
+  "/home":
+    available: 69.22 GiB
+    available_bytes: 74320490496
+    capacity: 1.26%
+    device: "/dev/mapper/centos_linux-home"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 70.10 GiB
+    size_bytes: 75271958528
+    used: 907.39 MiB
+    used_bytes: 951468032
+mtu_br-ex: 1500
+mtu_br-int: 1500
+mtu_br-tun: 1500
+mtu_docker0: 1500
+mtu_eno1: 1500
+mtu_lo: 65536
+mtu_ovs-system: 1500
+mtu_qg-cd53552c-e8: 1500
+mtu_qr-30ad3dfa-ac: 1500
+mtu_tapb5c50d6e-e6: 1500
+mtu_wlp2s0: 1500
+netmask: 255.255.255.0
+netmask6: 'ffff:ffff:ffff:ffff::'
+netmask6_docker0: 'ffff:ffff:ffff:ffff::'
+netmask6_lo: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+netmask6_wlp2s0: 'ffff:ffff:ffff:ffff::'
+netmask_docker0: 255.255.0.0
+netmask_lo: 255.0.0.0
+netmask_wlp2s0: 255.255.255.0
+network: 192.168.1.0
+network6: 'fe80::'
+network6_docker0: 'fe80::'
+network6_lo: "::1"
+network6_wlp2s0: 'fe80::'
+network_docker0: 172.17.0.0
+network_lo: 127.0.0.0
+network_wlp2s0: 192.168.1.0
+networking:
+  dhcp: 192.168.1.1
+  domain: vamshi.com
+  fqdn: linux.vamshi.com
+  hostname: linux
+  interfaces:
+    br-ex:
+      mac: 12:6f:cf:19:63:49
+      mtu: 1500
+    br-int:
+      mac: d2:9b:bb:2c:df:49
+      mtu: 1500
+    br-tun:
+      mac: 72:2b:71:db:02:42
+      mtu: 1500
+    docker0:
+      bindings:
+      - address: 172.17.0.1
+        netmask: 255.255.0.0
+        network: 172.17.0.0
+      bindings6:
+      - address: fe80::42:27ff:fe0e:f15f
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: 'fe80::'
+      ip: 172.17.0.1
+      ip6: fe80::42:27ff:fe0e:f15f
+      mac: 02:42:27:0e:f1:5f
+      mtu: 1500
+      netmask: 255.255.0.0
+      netmask6: 'ffff:ffff:ffff:ffff::'
+      network: 172.17.0.0
+      network6: 'fe80::'
+    eno1:
+      mac: 00:23:24:79:86:89
+      mtu: 1500
+    lo:
+      bindings:
+      - address: 127.0.0.1
+        netmask: 255.0.0.0
+        network: 127.0.0.0
+      bindings6:
+      - address: "::1"
+        netmask: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+        network: "::1"
+      ip: 127.0.0.1
+      ip6: "::1"
+      mtu: 65536
+      netmask: 255.0.0.0
+      netmask6: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+      network: 127.0.0.0
+      network6: "::1"
+    ovs-system:
+      mac: 92:18:6a:bc:06:bb
+      mtu: 1500
+    qg-cd53552c-e8:
+      mac: 1a:0f:d9:b1:92:a5
+      mtu: 1500
+    qr-30ad3dfa-ac:
+      mac: a2:eb:52:c2:6d:a1
+      mtu: 1500
+    tapb5c50d6e-e6:
+      mac: 72:47:72:1d:18:07
+      mtu: 1500
+    wlp2s0:
+      bindings:
+      - address: 192.168.1.101
+        netmask: 255.255.255.0
+        network: 192.168.1.0
+      bindings6:
+      - address: fe80::2c2:c6ff:fe87:8a5c
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: 'fe80::'
+      dhcp: 192.168.1.1
+      ip: 192.168.1.101
+      ip6: fe80::2c2:c6ff:fe87:8a5c
+      mac: 00:c2:c6:87:8a:5c
+      mtu: 1500
+      netmask: 255.255.255.0
+      netmask6: 'ffff:ffff:ffff:ffff::'
+      network: 192.168.1.0
+      network6: 'fe80::'
+  ip: 192.168.1.101
+  ip6: fe80::2c2:c6ff:fe87:8a5c
+  mac: 00:c2:c6:87:8a:5c
+  mtu: 1500
+  netmask: 255.255.255.0
+  netmask6: 'ffff:ffff:ffff:ffff::'
+  network: 192.168.1.0
+  network6: 'fe80::'
+  primary: wlp2s0
+operatingsystem: CentOS
+operatingsystemmajrelease: '7'
+operatingsystemrelease: 7.2.1511
+os:
+  architecture: x86_64
+  distro:
+    codename: Core
+    description: CentOS Linux release 7.2.1511 (Core)
+    id: CentOS
+    release:
+      full: 7.2.1511
+      major: '7'
+      minor: '2'
+    specification: ":core-4.1-amd64:core-4.1-noarch"
+  family: RedHat
+  hardware: x86_64
+  name: CentOS
+  release:
+    full: 7.2.1511
+    major: '7'
+    minor: '2'
+  selinux:
+    enabled: false
+osfamily: RedHat
+partitions:
+  "/dev/loop0":
+    backing_file: "/var/lib/docker/devicemapper/devicemapper/data"
+    filesystem: ext4
+    size: 100.00 GiB
+    size_bytes: 107374182400
+    uuid: a6b5db8f-fa1a-4977-89dd-3a7be9fa1738
+  "/dev/loop1":
+    backing_file: "/var/lib/docker/devicemapper/devicemapper/metadata"
+    size: 2.00 GiB
+    size_bytes: 2147483648
+  "/dev/mapper/centos_linux-backup":
+    filesystem: xfs
+    mount: "/backup"
+    size: 299.05 GiB
+    size_bytes: 321103331328
+    uuid: 793de494-63c8-4812-af68-60a946975194
+  "/dev/mapper/centos_linux-home":
+    filesystem: xfs
+    mount: "/home"
+    size: 70.14 GiB
+    size_bytes: 75308728320
+    uuid: 0aaff9f0-87e4-4388-9598-1e65a70541e1
+  "/dev/mapper/centos_linux-root":
+    filesystem: xfs
+    mount: "/"
+    size: 80.00 GiB
+    size_bytes: 85899345920
+    uuid: 159c35e1-183f-4a2e-97bc-b00a1a3c901d
+  "/dev/mapper/centos_linux-swap":
+    filesystem: swap
+    size: 9.73 GiB
+    size_bytes: 10448011264
+    uuid: 788df44f-c70c-4353-900c-6a4eb5a8cebf
+  "/dev/mapper/docker-253:1-270688890-pool":
+    filesystem: ext4
+    size: 100.00 GiB
+    size_bytes: 107374182400
+    uuid: a6b5db8f-fa1a-4977-89dd-3a7be9fa1738
+  "/dev/sda1":
+    filesystem: vfat
+    mount: "/boot/efi"
+    partlabel: EFI System Partition
+    partuuid: 648a49c4-39a0-438e-8e31-4972c2277d26
+    size: 1.95 GiB
+    size_bytes: 2097152000
+    uuid: BBD3-C1E9
+  "/dev/sda2":
+    filesystem: xfs
+    mount: "/boot"
+    partuuid: 6dfcb9f1-4942-4e35-8202-46c7d1118b94
+    size: 4.88 GiB
+    size_bytes: 5242880000
+    uuid: b8bdbeaf-e840-4df9-a730-6155ef2514d2
+  "/dev/sda3":
+    filesystem: LVM2_member
+    partuuid: ed48a07e-186e-4245-b5a9-4264271054e1
+    size: 458.92 GiB
+    size_bytes: 492766756864
+    uuid: jRQIyu-RKFG-bqPw-j0GP-duXK-G9xS-QG5vio
+path: "/usr/bin:/bin:/usr/sbin:/sbin"
+pe_build: 2015.3.2
+pe_concat_basedir: "/opt/puppetlabs/puppet/cache/pe_concat"
+pe_razor_server_version: package pe-razor-server is not installed
+pe_server_version: 2015.3.2
+physicalprocessorcount: 1
+platform_symlink_writable: true
+platform_tag: el-7-x86_64
+processor0: Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+processor1: Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+processor2: Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+processor3: Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+processorcount: 4
+processors:
+  count: 4
+  isa: x86_64
+  models:
+  - Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+  - Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+  - Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+  - Intel(R) Core(TM) i5-4570T CPU @ 2.90GHz
+  physicalcount: 1
+  speed: 3.60 GHz
+productname: 10AY001YUS
+puppet_files_dir_present: false
+puppetversion: 4.3.2
+ruby:
+  platform: x86_64-linux
+  sitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0"
+  version: 2.1.8
+rubyplatform: x86_64-linux
+rubysitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0"
+rubyversion: 2.1.8
+selinux: false
+serialnumber: MJ01VJUC
+ssh:
+  ecdsa:
+    fingerprints:
+      sha1: SSHFP 3 1 4f11d3d4383921e394fbf6a195a398115f26abe2
+      sha256: SSHFP 3 2 9cf766f637fca5e1ea87be3be9a568432c2f7ec4dc757f4395cb8afa104b7cdc
+    key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD9p39RduWQdAeZitz+zof6dQatCyw5MX69wU4w/uL3YW7i8VTvhv6rM8X1D+zd3bKBdgLJvOCtan+xMdsPR2w0=
+  ed25519:
+    fingerprints:
+      sha1: SSHFP 4 1 e09e392d30b63ed58a9565af96e7c7d0832ea7c7
+      sha256: SSHFP 4 2 d0f75087bd3d32d4b866f7d74bb2c8fda4a67089ab4d11ac001379d189fa1c32
+    key: AAAAC3NzaC1lZDI1NTE5AAAAINH0Iwd2sbMTY4Igv9naKbf/PmiZnChnfRFj6JLyj54b
+  rsa:
+    fingerprints:
+      sha1: SSHFP 1 1 6c341e89cf12df8aac9be068aca3050633d35882
+      sha256: SSHFP 1 2 ea5d9befa3553cda4633727c08e702483f383fe2d0d242e452886dc6632b8283
+    key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCp+D9tY3ikGPXv4IFCWkUobSd5pMcH9RVdSE+6kRUKuJ8lxFtHswEyx3LMDQ66zKgIQEN0hH0RE7oJC+SthPAcOT2TZrdEwlc2pUH25q+7iUCaH5HTl6RMoSXP5on656sm+2Ahi4dgOYptiQkC0nRmb6lId1rCSLViqOknNl034GIKjc1jWNbA9i9PY2Vdt1+Ao42BCVjRgfNnKyb5kZp/VwWBhT+hepYVplQ+OGaDB9o62tAGW9WpjoxJu6K80kIe6ED3P84Zau4uiun3SKuC7r0tQ+QdNn0WtYo38DC+itW7eKz6i/gRUygXD2LzVQzDYJ8E4+ENlyEvdrlG2yll
+sshecdsakey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD9p39RduWQdAeZitz+zof6dQatCyw5MX69wU4w/uL3YW7i8VTvhv6rM8X1D+zd3bKBdgLJvOCtan+xMdsPR2w0=
+sshed25519key: AAAAC3NzaC1lZDI1NTE5AAAAINH0Iwd2sbMTY4Igv9naKbf/PmiZnChnfRFj6JLyj54b
+sshfp_ecdsa: |-
+  SSHFP 3 1 4f11d3d4383921e394fbf6a195a398115f26abe2
+  SSHFP 3 2 9cf766f637fca5e1ea87be3be9a568432c2f7ec4dc757f4395cb8afa104b7cdc
+sshfp_ed25519: |-
+  SSHFP 4 1 e09e392d30b63ed58a9565af96e7c7d0832ea7c7
+  SSHFP 4 2 d0f75087bd3d32d4b866f7d74bb2c8fda4a67089ab4d11ac001379d189fa1c32
+sshfp_rsa: |-
+  SSHFP 1 1 6c341e89cf12df8aac9be068aca3050633d35882
+  SSHFP 1 2 ea5d9befa3553cda4633727c08e702483f383fe2d0d242e452886dc6632b8283
+sshrsakey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCp+D9tY3ikGPXv4IFCWkUobSd5pMcH9RVdSE+6kRUKuJ8lxFtHswEyx3LMDQ66zKgIQEN0hH0RE7oJC+SthPAcOT2TZrdEwlc2pUH25q+7iUCaH5HTl6RMoSXP5on656sm+2Ahi4dgOYptiQkC0nRmb6lId1rCSLViqOknNl034GIKjc1jWNbA9i9PY2Vdt1+Ao42BCVjRgfNnKyb5kZp/VwWBhT+hepYVplQ+OGaDB9o62tAGW9WpjoxJu6K80kIe6ED3P84Zau4uiun3SKuC7r0tQ+QdNn0WtYo38DC+itW7eKz6i/gRUygXD2LzVQzDYJ8E4+ENlyEvdrlG2yll
+staging_http_get: curl
+swapfree: 9.40 GiB
+swapfree_mb: 9629.7890625
+swapsize: 9.73 GiB
+swapsize_mb: 9963.99609375
+system_uptime:
+  days: 8
+  hours: 211
+  seconds: 760545
+  uptime: 8 days
+timezone: EDT
+uptime: 8 days
+uptime_days: 8
+uptime_hours: 211
+uptime_seconds: 760545
+uuid: E03AD2E9-AE84-E411-94AB-6A9611171900
+virtual: physical
+clientcert: linux.vamshi.com
+clientversion: 4.3.2
+clientnoop: false
